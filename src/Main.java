@@ -1,4 +1,3 @@
-import _1_Java_Basics.Console_IO;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Java_Class_Structure;
 
 public class Comments {
 

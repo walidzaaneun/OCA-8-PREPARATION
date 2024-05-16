@@ -1,4 +1,4 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Creating_Objects;
 
 // 1- the name of the constructor matches the name of the class
 // 2- there’s no return type.

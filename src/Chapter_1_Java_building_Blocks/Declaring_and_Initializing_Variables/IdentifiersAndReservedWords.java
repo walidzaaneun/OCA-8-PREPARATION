@@ -1,4 +1,4 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Declaring_and_Initializing_Variables;
 
 public class IdentifiersAndReservedWords {
     // Legal identifiers must start with a letter, a currency character ($, £, €), or an underscore (_). Identifiers CANNOT begin with a digit!.
@@ -23,5 +23,11 @@ public class IdentifiersAndReservedWords {
     // You cannot use any of java keywords as identifiers in your programs as for, class, public ... check the link below
     // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
     // int class;
+
+    // These examples are not legal:
+    //3DPointClass // identifiers cannot begin with a number
+    //hollywood@vine // @ is not a letter, digit, $ or _
+    //*$coffee // * is not a letter, digit, $ or _
+    //public // public is a reserved word
 
 }

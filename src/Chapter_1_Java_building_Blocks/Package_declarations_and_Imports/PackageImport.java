@@ -1,4 +1,6 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Package_declarations_and_Imports;
+
+import Chapter_1_Java_building_Blocks.Java_Class_Structure.ClassStructure;
 
 import java.util.Random; // without this Java cannot know what built in Class we want to import
 // if it begins java. or javax. it means came with JDK
@@ -30,7 +32,7 @@ import java.lang.System;
 import java.util.Date;
 //import java.sql.Date;
 //import java.util.*;
-import java.sql.*;
+
 /** If you explicitly import a class name, it takes precedence over any
  wildcards present. */
 

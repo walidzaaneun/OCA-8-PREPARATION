@@ -1,4 +1,4 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Java_Class_Structure;
 
 
 //Java is a strongly-typed language, you must specify a variable’s type when declaring it.

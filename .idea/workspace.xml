@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e74e0d-c00a-4f03-897a-ec4ddfc4b098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/ClassStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/ClassesVsFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/Console_IO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/MainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1_Java_Basics/Scope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="77e74e0d-c00a-4f03-897a-ec4ddfc4b098" name="Changes" comment="Day 3">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Declaring_and_Initializing_Variables/DeclaringAndInitializingVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Declaring_and_Initializing_Variables/DeclaringMultipleVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Primitives_and_Reference_types/KeyDifferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Primitives_and_Reference_types/PrimitiveTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Primitives_and_Reference_types/ReferenceType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/ClassConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Creating_Objects/ClassConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/ClassStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Java_Class_Structure/ClassStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/ClassesVsFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Java_Class_Structure/ClassesVsFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Java_Class_Structure/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/Console_IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Console_IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/IdentifiersAndReservedWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/IdentifiersAndReservedWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/InstanceInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Package_declarations_and_Imports/InstanceInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/MainMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Main_Method/MainMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/PackageImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Package_declarations_and_Imports/PackageImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/PrimitiveTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/ReadingWritingObjectFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Package_declarations_and_Imports/ReadingWritingObjectFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_Java_Basics/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter_1_Java_building_Blocks/Java_Class_Structure/Scope.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +64,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClassConstructor.executor": "Run",
+    "Application.InstanceInitializer.executor": "Run",
+    "Application.KeyDifferences.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.PackageImport.executor": "Run",
+    "Application.PrimitiveTypes.executor": "Run",
     "Application._2_Scope.executor": "Run",
     "Application._3_Console_IO.executor": "Run",
     "Application._C.executor": "Run",
@@ -70,17 +85,17 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Console_IO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_Java_Basics.Console_IO" />
+  <component name="RunManager" selected="Application.KeyDifferences">
+    <configuration name="ClassConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_1_Java_building_Blocks.Creating_Objects.ClassConstructor" />
       <module name="OCA-8-PREPARATION" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_Java_Basics.*" />
+          <option name="PATTERN" value="Chapter_1_Java_building_Blocks.Java_Class_Structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="OCA-8-PREPARATION" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_Java_Basics.Scope" />
+    <configuration name="InstanceInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_1_Java_building_Blocks.Package_declarations_and_Imports.InstanceInitializer" />
       <module name="OCA-8-PREPARATION" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_Java_Basics.*" />
+          <option name="PATTERN" value="Chapter_1_Java_building_Blocks.Java_Class_Structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +116,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_C" />
+    <configuration name="KeyDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_1_Java_building_Blocks.Primitives_and_Reference_types.KeyDifferences" />
       <module name="OCA-8-PREPARATION" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter_1_Java_building_Blocks.Java_Class_Structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackageImport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_1_Java_building_Blocks.Package_declarations_and_Imports.PackageImport" />
+      <module name="OCA-8-PREPARATION" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter_1_Java_building_Blocks.Java_Class_Structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimitiveTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_1_Java_building_Blocks.Primitives_and_Reference_types.PrimitiveTypes" />
+      <module name="OCA-8-PREPARATION" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter_1_Java_building_Blocks.Java_Class_Structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._3_Console_IO" />
-        <item itemvalue="Application._2_Scope" />
-        <item itemvalue="Application._C" />
+        <item itemvalue="Application.KeyDifferences" />
+        <item itemvalue="Application.PrimitiveTypes" />
+        <item itemvalue="Application.InstanceInitializer" />
+        <item itemvalue="Application.ClassConstructor" />
+        <item itemvalue="Application.PackageImport" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +181,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715247243012</updated>
-      <workItem from="1715247244135" duration="12064000" />
+      <workItem from="1715247244135" duration="44650000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 1">
+      <option name="closed" value="true" />
+      <created>1715353822296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715353822296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1715591661296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715591661296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 3">
+      <option name="closed" value="true" />
+      <created>1715764873121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715764873122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 1" />
+    <MESSAGE value="Day 2" />
+    <MESSAGE value="Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

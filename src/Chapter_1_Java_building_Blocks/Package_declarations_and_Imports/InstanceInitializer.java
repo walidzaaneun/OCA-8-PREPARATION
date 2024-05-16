@@ -1,4 +1,4 @@
-package _1_Java_Basics;
+package Chapter_1_Java_building_Blocks.Package_declarations_and_Imports;
 
 public class InstanceInitializer {
     // { System.out.println(x); } // DOES NOT COMPILE
