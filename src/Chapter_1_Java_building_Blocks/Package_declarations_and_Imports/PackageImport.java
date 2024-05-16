@@ -1,6 +1,5 @@
 package Chapter_1_Java_building_Blocks.Package_declarations_and_Imports;
 
-import Chapter_1_Java_building_Blocks.Java_Class_Structure.ClassStructure;
 
 import java.util.Random; // without this Java cannot know what built in Class we want to import
 // if it begins java. or javax. it means came with JDK
@@ -45,7 +44,7 @@ public class PackageImport {
         System.out.println("Enter package name: ");
         String package_name = sc.next();
 
-        ClassStructure cs = new ClassStructure(); // Java automatically looks in the current package [_1_Java_Basics] for other classes. \
+        InstanceInitializer cs = new InstanceInitializer(); // Java automatically looks in the current package [_1_Java_Basics] for other classes. \
 
         Date date = new Date(); // this couldnt compile if we didnt specify which Date we want to workwith Util or Sql one
         // if we want to work with both of them add exact package befor the class
