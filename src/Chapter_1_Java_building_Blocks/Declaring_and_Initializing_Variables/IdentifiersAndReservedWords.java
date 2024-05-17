@@ -30,4 +30,20 @@ public class IdentifiersAndReservedWords {
     //*$coffee // * is not a letter, digit, $ or _
     //public // public is a reserved word
 
+
+    /**Most Java developers follow these conventions for identifi er names:
+     *
+     ■ Method and variables names begin with a lowercase letter followed by CamelCase.
+     ■ Class names begin with an uppercase letter followed by CamelCase. Don’t start any
+
+        identifiers with $. The compiler uses this symbol for some files.
+     Also, know that valid letters in Java are not just characters in the English alphabet. Java
+     supports the Unicode character set, so there are more than 45,000 characters that can
+     start a legal Java identifier. A few hundred more are non-Arabic numerals that may
+     appear after the fi rst character in a legal identifier. Luckily, you don’t have to worry about
+     memorizing those for the exam. If you are in a country that doesn’t use the English alphabet,
+
+     this is useful to know for a job.
+     * */
+
 }

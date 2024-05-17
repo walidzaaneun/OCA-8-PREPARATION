@@ -1,4 +1,4 @@
-package Chapter_1_Java_building_Blocks.Java_Class_Structure;
+package Chapter_1_Java_building_Blocks.Variable_Scope;
 
 
 //Java is a strongly-typed language, you must specify a variable’s type when declaring it.
@@ -43,4 +43,30 @@ public class Scope {
         x=10; // instance methods can manipulate instance variable
         y=10; // instance methods can manipulate static variables of the class
     }
+
+    public void eatIfHungry(boolean hungry){
+        if (hungry){
+            int bitesOfCheese = 1;
+            {
+                boolean teenyBit = true;
+                System.out.println(bitesOfCheese);
+            }
+        }
+        // System.out.println(teenyBit); //
+    }
+
+    static int  MAX_LENGTH = 5;
+    int length;
+
+    public void grow(int inches){
+        if(length < MAX_LENGTH){
+            int newSize = length + inches;
+            length = newSize;
+        }
+    }
+    /**
+     * ■ Local variables—in scope from declaration to end of block
+     * ■ Instance variables—in scope from declaration until object garbage collected
+     * ■ Class variables—in scope from declaration until program ends
+     * */
 }
