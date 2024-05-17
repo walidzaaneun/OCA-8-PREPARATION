@@ -19,6 +19,7 @@ class Finaizer2{
 
     protected void finalize() {
         objects.add(this); // never do this
+
     }
 
 
